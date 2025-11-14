@@ -159,8 +159,12 @@ const Events = () => {
             <div className="max-w-4xl">
               <h1
   className="
-    whitespace-nowrap
-    text-[clamp(6rem,15vw,22rem)]
+    text-[4rem]
+    sm:text-[6rem]
+    md:text-[10rem]
+    lg:text-[14rem]
+    xl:text-[18rem]
+    2xl:text-[22rem]
     font-extrabold 
     mb-10 
     tracking-tighter 
